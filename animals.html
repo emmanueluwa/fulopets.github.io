@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +11,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <!-- NAVBAR SECTION -->  
+  <!-- NAVBAR SECTION -->
   <nav class="navbar">
     <div class="navbar__container">
       <a href="/fulopets.github.io/" id="navbar__logo"><img src="images/petfullogo.png" alt=""></a>
@@ -22,7 +24,7 @@
       </div>
       <ul class="navbar__menu">
         <li class="navbar__item">
-          <a href="/fulopets.github.io/animals" class="navbar__links">Animals</a>
+          <a href="/fulopets.github.io" class="navbar__links">Animals</a>
         </li>
         <li class="navbar__item">
           <a href="/fulopets.github.io" class="navbar__links">Resources</a>
@@ -34,18 +36,31 @@
     </div>
   </nav>
 
-  <!-- HERO SECTION -->
-  <div class="main">
-    <div class="main__container">
-      <div class="main__content">
-        <h1>PETFUL</h1>
-        <h2>STARS</h2>
-        <p>Pets we think you should know about</p>
-        <button class="main__button"><a href="/"></a>GET STARTED</button>
-      </div>
-      <div class="main__image--container">
-        <img src="images/catwelcome.svg" alt="pic" id="main__image">
-      </div>
+  <!-- GALLERY SECTION -->
+  <div class="gallery">
+    <div class="image__container">
+      <img src="./images/preview/american-akita-preview.jpg" 
+           alt="American Akita"
+           data-original="american-akita-full.jpg"
+      />
+    </div>
+    <div class="image__container">
+      <img src="./images/preview/ball-python-preview.jpg" 
+           alt="Ball Python" 
+           data-original="ball-python-full.jpg" 
+      />
+    </div>
+    <div class="image__container">
+      <img src="./images/preview/russian-blue-preview.jpg" 
+           alt="American Akita" 
+           data-original="russian-blue-full.jpg" 
+      />
+    </div>
+    <div class="image__container">
+      <img src="./images/preview/chameleon-preview.jpg" 
+           alt="Chameleon" 
+           data-original="chameleon-full.jpg" 
+      />
     </div>
   </div>
 
@@ -85,4 +100,5 @@
 
   <script src="app.js"></script>
 </body>
+
 </html>
