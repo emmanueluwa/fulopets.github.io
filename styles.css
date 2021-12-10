@@ -198,6 +198,7 @@
   font-size: 2rem;
   font-weight: 700;
   color: #f8f2ba;
+  padding: 2rem 0;
 }
 
 .main__button {
@@ -219,6 +220,7 @@
   z-index: 2;
   color: #f8f2ba;
   text-decoration: none;
+  padding: 5rem;
 }
 
 .main__button:after {
