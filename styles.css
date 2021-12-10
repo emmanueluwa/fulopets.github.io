@@ -469,3 +469,66 @@
   color: #cfa007;
   transition: 0.3s ease-out;
 }
+
+/* ANIMAL DETAIL SECTION  */
+/* SLIDESHOW STYLING // SYMBOLS https://www.toptal.com/designers/htmlarrows/symbols/ */
+.gallery__highlight {
+  width: 80%;
+  height: 50%;
+}
+
+section {
+  display: flex;
+  height: 100vh;
+}
+
+.room__gallery {
+  width: 50%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f2ba;
+}
+
+.room__description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cfa007;
+}
+
+.room__description hr {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #cfa007;
+}
+
+.room__description h1 {
+  color: #131313;
+}
+
+.room__description p {
+  color: #131313;
+}
+
+.room__preview {
+  display: flex;
+  width: 80%;
+  border: 2px solid #e2d2c0;
+}
+
+.room__preview img {
+  height: 100px;
+  flex-grow: 1;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+img.room__active {
+  opacity: 1;
+}
