@@ -532,3 +532,40 @@ section {
 img.room__active {
   opacity: 1;
 }
+
+/* MOBILE RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+  section {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .room__description {
+    width: 100%;
+  }
+
+  .room__gallery {
+    width: 100%;
+    align-items: center;
+  }
+
+  .room__preview img {
+    flex-grow: 1;
+  }
+  .room__preview {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main__content h1 {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+
+  .main__content p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+}
